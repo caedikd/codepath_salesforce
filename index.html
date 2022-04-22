@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>SIMON SINGS</h1>
+    <hr />
+    <p>
+      welcome to the game!
+      <br />repeat back the pattern by pressing buttons.
+      <br />
+      this game was created by <b>Caedi Seim</b> for codepath
+    </p>
+    <br />
+
+    <!-- Game play area dn buttons-->
+    <div class="display">
+      <br />
+      <button id="startBtn" class="startop" onclick="startGame()">
+        <b>Start</b>
+      </button>
+      <button id="stopBtn" class="startop hidden" onclick="stopGame()">
+        <b>Stop</b>
+      </button>
+
+      <br /><br />
+      <div id="end" class="display2 youLose hidden">
+        <b>thanks for playing, click the start button to play again 
+        <br /> </b>
+        <br>
+        this game speeds up exponentially by 1/2 after each pattern is played
+        <br />
+
+        
+        it is also user modifiable when prompted
+          
+      </div>
+      <div id="gameButtonArea">
+        <button
+          id="gameb1"
+          onmousedown="startTone(1)"
+          onmouseup="stopTone()"
+          onclick="guess(1)"
+        ></button>
+        <button
+          id="gameb2"
+          onmousedown="startTone(2)"
+          onmouseup="stopTone()"
+          onclick="guess(2)"
+        ></button>
+        <button
+          id="gameb3"
+          onmousedown="startTone(3)"
+          onmouseup="stopTone()"
+          onclick="guess(3)"
+        ></button>
+        <button
+          id="gameb4"
+          onmousedown="startTone(4)"
+          onmouseup="stopTone()"
+          onclick="guess(4)"
+        ></button>
+      </div>
+
+      <br /><br />
+    </div>
+
+    <p>
+      <br />
+      note: this game may not be suitable or accessible for those with color
+      blindness
+      <br />
+      contact me: <b>caediseim@berkeley.edu</b>
+      <br />
+      <b><a href="https://www.linkedin.com/in/caedi/" target="blank">linkedin</a></b>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #e2fadb;
+}
+
+/* Heading pretty */
+h1 {
+  font-family: "Quicksand", sans-serif;
+  color: #5f634f;
+  font-weight: 900;
+  font-size: 45px;
+  padding-left: 6%;
+  text-shadow: 2px 2px 8px #ffffff;
+}
+
+hr {
+  border-radius: 5px;
+  background-color: #dbefbc;
+  height: 4px;
+  width: 100%;
+  width: 90%;
+
+  margin-right: auto;
+  margin-left: auto;
+  border: 0px;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  color: #5f634f;
+  text-align: right;
+  padding-right: 6%;
+}
+
+.hidden {
+  display: none;
+}
+
+.display2 {
+  width: 90%;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  border: 0px solid green;
+
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.display {
+  width: 90%;
+  border: 0px solid green;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.startop {
+  background-color: #cfebdf; /* Green */
+  color: #5f634f;
+  padding: 10px 15px;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 2px;
+}
+
+.startop:hover {
+  background-color: #9bc4cb;
+  transition: 0.3s;
+  color: white;
+}
+
+/** Game button styling**/
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+#gameb1 {
+  background: #dbefbc;
+}
+
+#gameb1:hover {
+  filter: brightness(80%);
+}
+#gameb1:active:hover,
+#gameb1.lit {
+  filter: brightness(70%);
+}
+
+#gameb2 {
+  background: #eef0bd;
+}
+#gameb2:hover {
+  filter: brightness(80%);
+}
+#gameb2:active:hover,
+#gameb2.lit {
+  filter: brightness(70%);
+}
+
+#gameb3 {
+  background: #cfebdf;
+}
+#gameb3:hover {
+  filter: brightness(80%);
+}
+#gameb3:active:hover,
+#gameb3.lit {
+  filter: brightness(70%);
+}
+
+#gameb4 {
+  background: #9bc4cb;
+}
+
+#gameb4:hover {
+  filter: brightness(80%);
+}
+#gameb4:active:hover,
+#gameb4.lit {
+  filter: brightness(70%);
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
