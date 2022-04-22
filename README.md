@@ -40,10 +40,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![Alt Text](https://media.giphy.com/media/sSYxkyvNXm6wNPT9ZE/giphy.gif)
-![alt Text](http://g.recordit.co/M97sMjBx36.gif)
-[link to gif](http://g.recordit.co/M97sMjBx36.gif)
-- recordit is non-encrypted and couldn't be added correctly 
+![alt Text](http://g.recordit.co/lWXu0oE6Rr.gif)
+[link to gif](http://g.recordit.co/lWXu0oE6Rr.gif)
 
 ## Reflection Questions
 
@@ -52,7 +50,6 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 - StackOverflow
 - https://coolors.co/5f634f-9bc4cb-cfebdf-e2fadb-eef0bd
 - https://www.w3schools.com/
-- giphy -> for the gif as recordit is non-encrypted and couldn't be added correctly (view the link above for a clearer gif!)
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    
