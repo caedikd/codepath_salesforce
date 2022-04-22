@@ -57,18 +57,19 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    
    I also felt like I really wanted to make something that looked both unique and fit my personality as I was the one creating it. Initially, I just jumped right into coding and made the basic functionality and figured I would think up a design on the spot. I ended up with something that looked vaguely like the demo but I felt like the design was much too elementary. For example, I wanted the design to look simple without looking unintentionally so. A major issue I had was actually just with text because I felt like a serif font might be a little bit over the top, yet a san-serif font like Arial made the already bare website look hacked together. I figured the best way to go about this was to think up a theme (I went with muted-green colors as the sounds of the game seemed to fit that mood) and draw out my plan or wireframe for the website design and then search on Google or StackOverflow for how to go about implementing the design. After knowing what I wanted and how to search for it, I was able to design the website exactly how I intended, such as by adding fonts from Google's open source fonts, adding color, and even adding some interactivity with the hover.
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
-
+  
+   After completing this task I have a lot of questions about web design. In regards to the layout of the website, is there a faster way to go about the design process as CSS feels oddly clunky and a lot of work for a low reward. Is every site strictly made through raw HTML, CSS, and Javascript, or are these more of building block languages that work in conjuction with other libraries like React. Likewise, I think I would like to see this website be able to work on mobile devices or smaller screens, and I was wondering how or if the code would have to change to perform in that way. In my code, I was also able to use javascript to ask for user input and then use that input as part of my code. However, I was curious if there could be somewhere to save all this data (that was not in my local javascript code) as so many sites currently host login programs. If so, what would the data limits be, and how might I go about connecting that to my current code. 
+  
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
-
+   
+   If I had a few more hours to work on this project, I would would most likely be exploring the sound API a little more and adding more features within that. For example, I would probably want to add some sound effects on clicks or on game wins or losses. I also wrote that the game might not be accessible for colorblind/blind people, however I actually think it could also be arranged such that instructions were read aloud and the keys were played a little louder, making this a primarily sound based game. I also wanted to implement a leader board for the highest rounds people would play (as it gets faster each round). However, I couldn't figure out how to easily save all that data from each play after reloading the website, so I think figuring something like that out would be especially cool. I asked for user input, but I think the alert and prompt does not really fit in well with the theme of the website, so I would also like to either change that or make it so that the website itself does the a pop-up. For example, I think I'd like it if the website had a place to enter the number of rounds instead of that being a pop-up question prompt that it is right now. 
 ## Interview Recording URL Link
 
 [My 5-minute Interview Recording](your-link-here)
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Caedi Seim
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
