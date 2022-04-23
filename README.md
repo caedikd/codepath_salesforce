@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 - [x] Player only loses after 3 mistakes (instead of on the first mistake)
 - [ ] Game button appearance change goes beyond color (e.g. add an image)
 - [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [ ] User has a limited amount of time to enter their guess on each turn
+- [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
@@ -40,8 +40,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![alt Text](https://recordit.co/Ve9HpnMwPD)
-[link to gif](https://recordit.co/Ve9HpnMwPD)
+![Alt Text](http://g.recordit.co/Ve9HpnMwPD.gif)
+[link to gif](http://g.recordit.co/Ve9HpnMwPD.gif)
 
 ## Reflection Questions
 
@@ -65,7 +65,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    If I had a few more hours to work on this project, I would would most likely be exploring the sound API a little more and adding more features within that. For example, I would probably want to add some sound effects on clicks or on game wins or losses. I also wrote that the game might not be accessible for colorblind/blind people, however I actually think it could also be arranged such that instructions were read aloud and the keys were played a little louder, making this a primarily sound based game. I also wanted to implement a leader board for the highest rounds people would play (as it gets faster each round). However, I couldn't figure out how to easily save all that data from each play after reloading the website, so I think figuring something like that out would be especially cool. I asked for user input, but I think the alert and prompt does not really fit in well with the theme of the website, so I would also like to either change that or make it so that the website itself does the a pop-up. For example, I think I'd like it if the website had a place to enter the number of rounds instead of that being a pop-up question prompt that it is right now. 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.youtube.com/watch?v=MZuVNg8_ghI)
 
 ## License
 
